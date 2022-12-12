@@ -1,14 +1,5 @@
-function getComputerChoice;
+let gameChoices = ['rock', 'paper', 'scissors'];
 
-function playRound(playerSelection, computerSelection) {
-    // your code here!
-    let playerSelection = prompt('Rock, Paper, or Scissors?', '');
-    let computerSelection = (rock, paper, scissors);
-    for (let i = 0; i < 5; i++) {
-        // your code here!
-        if
-    }
+function getComputerChoice(gameChoices) {
+    return gameChoices[Math.floor(Math.random() * options.length)];
 }
-
-const computerSelection = getComputerChoice();
-console.log(playRound(playerSelection, computerSelection));
